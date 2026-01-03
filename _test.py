@@ -17,15 +17,15 @@ def fith(n):
 
 
 # ====== Testing all the function: ======
-def test_squre(n):
+def test_squre():
     assert squre(2)==4, "Test failed square of 2 should be 4"
     assert squre(3)==9, "Test failed square of 3 should be 9"
     
-def test_cuve(n):
+def test_cuve():
     assert cuve(2)==8, "Test failed cuve of 2 should be 8"
     assert cuve(3)==27, "Test failed cuve of 3 should be 27"
     
-def test_fith(n):
+def test_fith():
     assert fith(2)==32, "Test failed 2^5  of 2 should be 32"
     assert fith(3)==243, "Test failed 3^5 of 3 should be 243"
     
