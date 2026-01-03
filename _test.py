@@ -7,12 +7,12 @@ def squre(n):
 
 
 # function for test cuve:
-def squre(n):
+def cuve(n):
     return n**3
 
 
 # function for test five:
-def squre(n):
+def fith(n):
     return n**5
 
 
@@ -22,12 +22,12 @@ def test_squre(n):
     assert squre(3)==9, "Test failed square of 3 should be 9"
     
 def test_cuve(n):
-    assert squre(2)==8, "Test failed cuve of 2 should be 8"
-    assert squre(3)==27, "Test failed cuve of 3 should be 27"
+    assert cuve(2)==8, "Test failed cuve of 2 should be 8"
+    assert cuve(3)==27, "Test failed cuve of 3 should be 27"
     
 def test_fith(n):
-    assert squre(2)==32, "Test failed 2^5  of 2 should be 32"
-    assert squre(3)==243, "Test failed 3^5 of 3 should be 243"
+    assert fith(2)==32, "Test failed 2^5  of 2 should be 32"
+    assert fith(3)==243, "Test failed 3^5 of 3 should be 243"
     
     
 # test for invalid input:
